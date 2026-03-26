@@ -82,7 +82,7 @@ function App() {
       <section className="hero">
         <div className="hero-slides" id="heroSlides">
           <div className={`hero-slide ${currentSlide === 0 ? 'active' : ''}`}>
-            <div className="hero-slide-bg" style={{ background: 'linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%)' }}></div>
+            <div className="hero-slide-bg" style={{ backgroundImage: "url('/images/hero_roof_scan.png')" }}></div>
             <div className="hero-content">
               <span className="tag">Roof Inspections</span>
               <h2>Infrared Roof<br/>Moisture Scans</h2>
@@ -95,7 +95,7 @@ function App() {
           </div>
 
           <div className={`hero-slide ${currentSlide === 1 ? 'active' : ''}`}>
-            <div className="hero-slide-bg" style={{ background: 'linear-gradient(135deg,#2d1b4e 0%,#1a1a2e 50%,#c0392b 100%)' }}></div>
+            <div className="hero-slide-bg" style={{ backgroundImage: "url('/images/hero_energy_audit.png')" }}></div>
             <div className="hero-content">
               <span className="tag">Energy Audits</span>
               <h2>Commercial<br/>Energy Audits</h2>
@@ -108,7 +108,7 @@ function App() {
           </div>
 
           <div className={`hero-slide ${currentSlide === 2 ? 'active' : ''}`}>
-            <div className="hero-slide-bg" style={{ background: 'linear-gradient(135deg,#0f3460 0%,#1a1a2e 50%,#16213e 100%)' }}></div>
+            <div className="hero-slide-bg" style={{ backgroundImage: "url('/images/hero_aerial_survey.png')" }}></div>
             <div className="hero-content">
               <span className="tag">Aerial Imaging</span>
               <h2>Aerial Infrared<br/>Surveys</h2>
@@ -121,7 +121,7 @@ function App() {
           </div>
 
           <div className={`hero-slide ${currentSlide === 3 ? 'active' : ''}`}>
-            <div className="hero-slide-bg" style={{ background: 'linear-gradient(135deg,#c0392b 0%,#1a1a2e 50%,#0f3460 100%)' }}></div>
+            <div className="hero-slide-bg" style={{ backgroundImage: "url('/images/hero_radiant_heat.png')" }}></div>
             <div className="hero-content">
               <span className="tag">Radiant Heat</span>
               <h2>Radiant Heat<br/>Leak Detection</h2>
@@ -200,6 +200,7 @@ function App() {
               <p>This inspection provides the owner or purchaser with an accurate understanding of the building's structural integrity so informed decisions can be made. Our inspections have identified significant hidden water intrusions that have saved millions of dollars due to early detection and repair.</p>
             </div>
             <div>
+              <img src="/images/about_section_scan.png" alt="Commercial Building Thermal Scan" style={{ width: '100%', height: '300px', objectFit: 'cover', borderRadius: '12px', marginBottom: '32px', boxShadow: 'var(--shadow-lg)' }} />
               <div className="intro-badge">
                 <div className="badge-icon">
                   <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>

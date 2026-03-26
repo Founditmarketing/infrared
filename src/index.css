@@ -795,13 +795,28 @@ ul { list-style: none; }
     box-shadow: var(--shadow-lg);
     border-top: 1px solid var(--border);
   }
-  .hero-content h2 { font-size: 2rem; }
-  .highlights-grid { grid-template-columns: 1fr; margin-top: -30px; }
-  .intro-body { grid-template-columns: 1fr; }
-  .services-grid { grid-template-columns: 1fr; }
-  .quote-section .container { grid-template-columns: 1fr; }
+  .container { padding: 0 16px; }
+  .hero-content { padding: 40px 16px; }
+  .hero-content h2 { font-size: 2.2rem; margin-bottom: 12px; }
+  .hero-content p { font-size: 1rem; margin-bottom: 20px; }
+  .hero { min-height: 400px; }
+  .hero-slides { min-height: 400px; }
+  .highlights-grid { grid-template-columns: 1fr; margin-top: -30px; gap: 16px; }
+  .intro { padding: 40px 0; }
+  .intro-header h2 { font-size: 1.8rem; }
+  .intro-body { grid-template-columns: 1fr; gap: 32px; }
+  .services { padding: 40px 0; }
+  .services-header h2 { font-size: 1.8rem; }
+  .services-grid { grid-template-columns: 1fr; gap: 16px; }
+  .quote-section { padding: 40px 0; }
+  .quote-info h2 { font-size: 1.8rem; }
+  .quote-section .container { grid-template-columns: 1fr; gap: 40px; }
+  .cta-banner { padding: 40px 0; }
+  .cta-banner h2 { font-size: 1.8rem; }
   .cta-banner .container { flex-direction: column; text-align: center; gap: 20px; }
-  .footer-grid { grid-template-columns: 1fr; }
+  .footer { padding: 40px 0 0; }
+  .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+  .footer-certs { gap: 16px; padding: 16px 0; }
   .form-row { grid-template-columns: 1fr; }
 }
 
