@@ -146,8 +146,7 @@ function App() {
         <div className="container">
           <div className="highlights-grid">
             <div className="highlight-card animate-in delay-1">
-              <div className="highlight-card-img">
-                <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zM7 10h2v7H7zm4-3h2v10h-2zm4 6h2v4h-2z"/></svg>
+              <div className="highlight-card-img" style={{ backgroundImage: "url('/images/highlight_roof.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
               </div>
               <div className="highlight-card-body">
                 <h3>Infrared Roof Scan</h3>
@@ -155,8 +154,7 @@ function App() {
               </div>
             </div>
             <div className="highlight-card animate-in delay-2">
-              <div className="highlight-card-img" style={{ background: 'linear-gradient(135deg,#0f3460,#1a1a2e)' }}>
-                <svg viewBox="0 0 24 24"><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/></svg>
+              <div className="highlight-card-img" style={{ backgroundImage: "url('/images/highlight_energy.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
               </div>
               <div className="highlight-card-body">
                 <h3>Energy Audits</h3>
@@ -164,8 +162,7 @@ function App() {
               </div>
             </div>
             <div className="highlight-card animate-in delay-3">
-              <div className="highlight-card-img" style={{ background: 'linear-gradient(135deg,#1a1a2e,#c0392b)' }}>
-                <svg viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg>
+              <div className="highlight-card-img" style={{ backgroundImage: "url('/images/highlight_aerial.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
               </div>
               <div className="highlight-card-body">
                 <h3>Aerial IR Surveys</h3>
@@ -173,8 +170,7 @@ function App() {
               </div>
             </div>
             <div className="highlight-card animate-in delay-4">
-              <div className="highlight-card-img" style={{ background: 'linear-gradient(135deg,#c0392b,#96281b)' }}>
-                <svg viewBox="0 0 24 24"><path d="M17.66 11.2c-.23-.3-.51-.56-.77-.82-.67-.6-1.43-1.03-2.07-1.66C13.33 7.26 13 4.85 13.95 3c-.95.23-1.78.75-2.49 1.32-2.59 2.08-3.61 5.75-2.39 8.9.04.1.08.2.08.33 0 .22-.15.42-.35.5-.23.1-.47.04-.66-.12a.58.58 0 01-.14-.17c-1.13-1.43-1.31-3.48-.55-5.12C5.78 10 4.87 12.3 5 14.47c.06.5.12 1 .29 1.5.14.6.41 1.2.71 1.73 1.08 1.73 2.95 2.97 4.96 3.22 2.14.27 4.43-.12 6.07-1.6 1.83-1.66 2.47-4.32 1.53-6.6l-.13-.26c-.21-.46-.77-1.26-.77-1.26zm-3.16 6.3c-.28.24-.74.5-1.1.6-1.12.4-2.24-.16-2.9-.82 1.19-.28 1.9-1.16 2.11-2.05.17-.8-.15-1.46-.28-2.23-.12-.74-.1-1.37.17-2.06.19.38.39.76.63 1.06.77 1 1.98 1.44 2.24 2.8.04.14.06.28.06.43.03.82-.33 1.72-.93 2.27z"/></svg>
+              <div className="highlight-card-img" style={{ backgroundImage: "url('/images/highlight_radiant.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
               </div>
               <div className="highlight-card-body">
                 <h3>Radiant Heat Scan</h3>
@@ -321,7 +317,7 @@ function App() {
       </section>
 
       {/* ═══ CTA BANNER ═══ */}
-      <section className="cta-banner">
+      <section className="cta-banner" style={{ backgroundImage: "url('/images/cta_banner_bg.png')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundBlendMode: 'overlay', backgroundColor: 'rgba(26,26,46,0.85)' }}>
         <div className="container">
           <div>
             <h2>Ready to Get <span>Started?</span></h2>
