@@ -227,8 +227,7 @@ function App() {
           <div className="services-grid">
 
             <div className="service-card">
-              <div className="service-card-img">
-                <svg viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+              <div className="service-card-img" style={{ backgroundImage: "url('/images/service_electrical.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <div className="overlay"><a href="#" className="btn btn-primary">Learn More</a></div>
               </div>
               <div className="service-card-body">
@@ -238,8 +237,7 @@ function App() {
             </div>
 
             <div className="service-card">
-              <div className="service-card-img" style={{ background: 'linear-gradient(135deg,#0f3460,#16213e)' }}>
-                <svg viewBox="0 0 24 24"><path d="M17.66 11.2c-.23-.3-.51-.56-.77-.82-.67-.6-1.43-1.03-2.07-1.66C13.33 7.26 13 4.85 13.95 3c-.95.23-1.78.75-2.49 1.32-2.59 2.08-3.61 5.75-2.39 8.9.04.1.08.2.08.33 0 .22-.15.42-.35.5-.23.1-.47.04-.66-.12a.58.58 0 01-.14-.17c-1.13-1.43-1.31-3.48-.55-5.12C5.78 10 4.87 12.3 5 14.47c.06.5.12 1 .29 1.5.14.6.41 1.2.71 1.73 1.08 1.73 2.95 2.97 4.96 3.22 2.14.27 4.43-.12 6.07-1.6 1.83-1.66 2.47-4.32 1.53-6.6l-.13-.26c-.21-.46-.77-1.26-.77-1.26z"/></svg>
+              <div className="service-card-img" style={{ backgroundImage: "url('/images/service_radiant_heat.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <div className="overlay"><a href="#" className="btn btn-primary">Learn More</a></div>
               </div>
               <div className="service-card-body">
@@ -249,8 +247,7 @@ function App() {
             </div>
 
             <div className="service-card">
-              <div className="service-card-img" style={{ background: 'linear-gradient(135deg,#1a1a2e,#2d3436)' }}>
-                <svg viewBox="0 0 24 24"><path d="M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3z"/></svg>
+              <div className="service-card-img" style={{ backgroundImage: "url('/images/service_building_moisture.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <div className="overlay"><a href="#" className="btn btn-primary">Learn More</a></div>
               </div>
               <div className="service-card-body">
@@ -260,8 +257,7 @@ function App() {
             </div>
 
             <div className="service-card">
-              <div className="service-card-img" style={{ background: 'linear-gradient(135deg,#2d1b4e,#1a1a2e)' }}>
-                <svg viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg>
+              <div className="service-card-img" style={{ backgroundImage: "url('/images/service_aerial_survey.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <div className="overlay"><a href="#" className="btn btn-primary">Learn More</a></div>
               </div>
               <div className="service-card-body">
@@ -271,8 +267,7 @@ function App() {
             </div>
 
             <div className="service-card">
-              <div className="service-card-img" style={{ background: 'linear-gradient(135deg,#c0392b,#1a1a2e)' }}>
-                <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zM7 10h2v7H7zm4-3h2v10h-2zm4 6h2v4h-2z"/></svg>
+              <div className="service-card-img" style={{ backgroundImage: "url('/images/service_energy_loss.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <div className="overlay"><a href="#" className="btn btn-primary">Learn More</a></div>
               </div>
               <div className="service-card-body">
@@ -282,8 +277,7 @@ function App() {
             </div>
 
             <div className="service-card">
-              <div className="service-card-img" style={{ background: 'linear-gradient(135deg,#16213e,#0f3460)' }}>
-                <svg viewBox="0 0 24 24"><path d="M19 9l-1.25-2.75L15 5l2.75-1.25L19 1l1.25 2.75L23 5l-2.75 1.25L19 9zm-7.5.5L9 4 6.5 9.5 1 12l5.5 2.5L9 20l2.5-5.5L17 12l-5.5-2.5z"/></svg>
+              <div className="service-card-img" style={{ backgroundImage: "url('/images/service_roof_moisture.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <div className="overlay"><a href="#" className="btn btn-primary">Learn More</a></div>
               </div>
               <div className="service-card-body">
@@ -293,8 +287,7 @@ function App() {
             </div>
 
             <div className="service-card">
-              <div className="service-card-img" style={{ background: 'linear-gradient(135deg,#2d3436,#636e72)' }}>
-                <svg viewBox="0 0 24 24"><path d="M12 2c-5.33 4.55-8 8.48-8 11.8 0 4.98 3.8 8.2 8 8.2s8-3.22 8-8.2c0-3.32-2.67-7.25-8-11.8z"/></svg>
+              <div className="service-card-img" style={{ backgroundImage: "url('/images/service_steam_trap.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <div className="overlay"><a href="#" className="btn btn-primary">Learn More</a></div>
               </div>
               <div className="service-card-body">
@@ -304,8 +297,7 @@ function App() {
             </div>
 
             <div className="service-card">
-              <div className="service-card-img" style={{ background: 'linear-gradient(135deg,#96281b,#c0392b)' }}>
-                <svg viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+              <div className="service-card-img" style={{ backgroundImage: "url('/images/service_body_temp.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <div className="overlay"><a href="#" className="btn btn-primary">Learn More</a></div>
               </div>
               <div className="service-card-body">
@@ -315,8 +307,7 @@ function App() {
             </div>
 
             <div className="service-card">
-              <div className="service-card-img" style={{ background: 'linear-gradient(135deg,#1a1a2e,#0f3460)' }}>
-                <svg viewBox="0 0 24 24"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/><path d="M2 4v16h20V4H2zm18 14H4V6h16v12z"/></svg>
+              <div className="service-card-img" style={{ backgroundImage: "url('/images/service_block_wall.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <div className="overlay"><a href="#" className="btn btn-primary">Learn More</a></div>
               </div>
               <div className="service-card-body">
